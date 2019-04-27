@@ -764,7 +764,7 @@ var ExamenService = /** @class */ (function () {
     function ExamenService(httpClient) {
         this.httpClient = httpClient;
         //API_ENDPOINT = 'http://127.0.0.1:8000/api/';
-        this.API_ENDPOINT = 'http://127.0.0.1:8000/api/appExamenIsw2/public/api/';
+        this.API_ENDPOINT = 'https://robinmatus.github.io/appexamen/api/appExamenIsw2/public/api/';
     }
     ExamenService.prototype.get = function () {
         return this.httpClient.get(this.API_ENDPOINT + 'resoluciones');
