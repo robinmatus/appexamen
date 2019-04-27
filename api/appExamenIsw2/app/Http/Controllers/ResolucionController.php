@@ -52,7 +52,7 @@ class ResolucionController extends Controller
                           $t->aeo = Crypt::decrypt($t->aeo);
                           $t->alim = Crypt::decrypt($t->alim);
                           $t->pare = Crypt::decrypt($t->pare);
-                          $t->categoria = Crypt::decrypt($t->categoria);
+                          //$t->categoria = Crypt::decrypt($t->categoria);
                           //$t->monto = Crypt::decrypt($t->monto);
                           //return $t->monto;
                         }

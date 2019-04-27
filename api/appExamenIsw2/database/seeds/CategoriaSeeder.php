@@ -12,38 +12,38 @@ class CategoriaSeeder extends Seeder
     public function run()
     {
         Categoria::create([
-          'categoria' => Crypt::encrypt('4'),
+          'categoria' =>'4',
           'descripcion' => 'aeo',
           'monto' => Crypt::encrypt(125000)
         ]);
 
         Categoria::create([
-          'categoria' => Crypt::encrypt('4'),
+          'categoria' => '4',
           'descripcion' => 'alim',
           'monto' => Crypt::encrypt(75000)
         ]);
 
         Categoria::create([
-          'categoria' => Crypt::encrypt('4'),
+          'categoria' => '4',
           'descripcion' => 'pare',
           'monto' => Crypt::encrypt(50000)
         ]);
 
 
         Categoria::create([
-          'categoria' => Crypt::encrypt('5'),
+          'categoria' => '5',
           'descripcion' => 'aeo',
           'monto' => Crypt::encrypt(100000)
         ]);
 
         Categoria::create([
-          'categoria' => Crypt::encrypt('5'),
+          'categoria' => '5',
           'descripcion' => 'alim',
           'monto' => Crypt::encrypt(50000)
         ]);
 
         Categoria::create([
-          'categoria' => Crypt::encrypt('5'),
+          'categoria' => '5',
           'descripcion' => 'pare',
           'monto' => Crypt::encrypt(50000)
         ]);
